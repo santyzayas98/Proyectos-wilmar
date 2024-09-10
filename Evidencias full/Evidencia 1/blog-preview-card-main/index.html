@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Foundations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F4D04E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 350px;
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgb(62, 26, 193);
+            box-shadow: 10px 10px 5px 0px rgb(112, 206, 11);
+        }
+        .card-header {
+            background-color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-header img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card-body h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .card-body p {
+            color: #555;
+        }
+        .author {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .author img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img src="Captura de pantalla 2024-08-01 211712.png" alt="Card Header Image">
+        </div>
+        <div class="card-body">
+            <span style="background-color: #3c0ff1; padding: 5px; border-radius: 5px;">Learning</span>
+            <p><Published 21 Dec 2023</p>
+            <h1>HTML & CSS foundations</h1>
+            <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            <div class="author">
+                <img src="Captura de pantalla 2024-08-01 212139.png" alt="Author Image">
+                <span>Greg Hooper</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
